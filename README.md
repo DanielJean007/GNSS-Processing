@@ -13,6 +13,8 @@ One entry at per line. For instance:
 ```
 The file `gnss_data.txt` contains a sample data that is used in the application.
 
+This project shows both 2D and 3D plots of the direction and heading of the GNSS module.
+
 ## Installation
 To install this application it is advised to create an virtual environment to install and run the python dependencies. You can create a new virtual enviironment for python by running the following command in a terminal (for Linux Operating Systems):
 
@@ -32,9 +34,11 @@ The main file to run this appllication is `GNSS_data_processing.py`. You can  ex
 `python GNSS_data_processing.py`
 
 This will open a tab  on the default web browser and show the module's: Pitch,  Roll, Current X and Y positions and Direction (Left, Rigthor Forward).
+Also, a window for the 2D plot will pop up. Wait until the end of the animatio. Close the 2D plot window, then you  will be able to see the 3D movement with pitch  and roll of the GNSS module.
 
 A sample of the output is shown below:
 
-![Alt text](sample.png)
+![Alt text](sample1.png)
+![Alt text](sample2.png)
 
 To exit the application simply close the web browser opened by this script.
